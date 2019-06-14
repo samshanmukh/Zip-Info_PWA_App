@@ -1,0 +1,33 @@
+[debug] [2019-06-14T13:04:49.400Z] ----------------------------------------------------------------------
+[debug] [2019-06-14T13:04:49.405Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-06-14T13:04:49.406Z] CLI Version:   7.0.0
+[debug] [2019-06-14T13:04:49.406Z] Platform:      linux
+[debug] [2019-06-14T13:04:49.406Z] Node Version:  v8.16.0
+[debug] [2019-06-14T13:04:49.406Z] Time:          Fri Jun 14 2019 18:34:49 GMT+0530 (IST)
+[debug] [2019-06-14T13:04:49.406Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-14T13:04:49.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-14T13:04:49.444Z] > authorizing via signed-in user
+[debug] [2019-06-14T13:04:49.445Z] [iam] checking project zip-info for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-06-14T13:04:49.449Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zip-info:testIamPermissions  
+
+[debug] [2019-06-14T13:04:51.499Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-14T13:04:51.506Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zip-info  
+ 
+[debug] [2019-06-14T13:04:52.392Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'zip-info'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-06-14T13:04:52.402Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/zip-info/versions  
+
+[debug] [2019-06-14T13:04:55.046Z] <<< HTTP RESPONSE 200
+[info] i  hosting[zip-info]: beginning deploy...
+[info] i  hosting[zip-info]: found 1064 files in dist
+[debug] [2019-06-14T13:04:55.787Z] [hosting] hash cache [ZGlzdA] load error: lines is not defined
+[debug] [2019-06-14T13:04:58.634Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/zip-info/versions/d32bd6fe00758ba2:populateFiles  
+ <request body omitted>
+[debug] [2019-06-14T13:04:59.176Z] [hosting] hash cache [ZGlzdA] stored for 1064 files
+[debug] [2019-06-14T13:04:59.176Z] [hosting][hash queue][FINAL]
+[debug] [2019-06-14T13:04:59.177Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/zip-info/versions/d32bd6fe00758ba2:populateFiles  
+ <request body omitted>
