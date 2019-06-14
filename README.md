@@ -7,4 +7,4 @@ PWA application using Vue and ionic4
 
 > Application preview (screenshot)
 
-![application main page](https://github.com/samshanmukh/Zip-Info_PWA_App/blob/master/zip-info_pwa/App-Screenshot.png "App main page")
+      ![application main page](https://github.com/samshanmukh/Zip-Info_PWA_App/blob/master/zip-info_pwa/App-Screenshot.png "App main page")
